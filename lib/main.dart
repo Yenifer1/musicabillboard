@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:musicabillboard/apimusica.dart';
-
 import 'package:provider/provider.dart';
 
 void main() {
@@ -12,11 +11,20 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          lazy: false,
+          create: (BuildContext context) {
+            return MusicaTrack();
+          },
+        )
+      ],
+      child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: MyHomePage(),
-      );
-    
+      ),
+    );
   }
 }
 
