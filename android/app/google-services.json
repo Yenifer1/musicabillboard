@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820901597895",
+    "project_id": "musica-30fc2",
+    "storage_bucket": "musica-30fc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820901597895:android:354f9fa9c4a4fcf873e4e2",
+        "android_client_info": {
+          "package_name": "com.example.musicabillboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820901597895-u76i7mihc7dsi85fa8f03qdnnd3k59i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsKbE5TqNJaXQsUXAw7oDCQXS1j8fq4ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820901597895-u76i7mihc7dsi85fa8f03qdnnd3k59i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
