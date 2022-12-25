@@ -59,10 +59,10 @@ class _NotasState extends State<Notas> {
               snapshot.value.toString(); // {subtitle: webfun, title: subscribe}
 
           g = v.replaceAll(
-              RegExp("{|}|subtitle: |title: "), ""); // webfun, subscribe
-          g.trim();
+              RegExp("{|}|subtitle: |title: "), ""); 
+                        g.trim();
 
-          l = g.split(','); // [webfun,  subscribe}]
+          l = g.split(','); 
 
           return GestureDetector(
             onTap: () {
