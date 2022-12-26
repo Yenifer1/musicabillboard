@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:musicabillboard/apimusica.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:musicabillboard/home.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,14 +34,5 @@ class _MyAppState extends State<MyApp> {
         home: MyHomePage(),
       ),
     );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
